@@ -20,6 +20,12 @@ Equilibria Fest 2019 Website
 |
 |------------------jquery
 |
+|---index.js
+|--procfile
+|--app.js
+|--text.js
+|--package-lock.json
+|--LICENSE
 |--node_modules
 |----- TL;DR a million node_modules to support the unified backend of the server NEVER MESS THIS
 ```
@@ -61,6 +67,25 @@ Additionally md for github, md rendering and error handling in node.js and expre
 ## Hosting
 The entire frontend is run on a combination of netlify and heroku with bare-minimal cpu usage to ensure minimum costs
 However, in the future for mailing sub-systems we may consider using lower end plans
+ ### Details
+  ```
+──────────────────────┐
+ Current Netlify User │
+──────────────────────┘
+Name:  Rahul Batra
+Email: rahulbatra065@gmail.com
+Teams:
+  Rahul Batra's team: Collaborator
+  nodedps's team:     Collaborator
+────────────────────┐
+ Netlify Site Info  │
+────────────────────┘
+Current site: boring-lichterman-774dd9
+Admin URL:    https://app.netlify.com/sites/boring-lichterman-774dd9
+Site URL:     https://boring-lichterman-774dd9.netlify.com
+  ```
+
+
  ### Statuses
  [![Netlify Status](https://api.netlify.com/api/v1/badges/a3da14c4-1c39-4e81-97c5-f156e6a7a7de/deploy-status)](https://app.netlify.com/sites/boring-lichterman-774dd9/deploys)
  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
@@ -73,6 +98,6 @@ However, in the future for mailing sub-systems we may consider using lower end p
  [![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
  [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 
-###### The End
+##### The End
  Made with love, IT Cell, Symbiosis School of Economics 2019!
  [![Generic badge](https://img.shields.io/badge/RAHUL%20BATRA-2019-GREEN.svg)](https://shields.io/)
