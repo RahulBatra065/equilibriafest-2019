@@ -27,16 +27,25 @@ Equilibria Fest 2019 Website
 ### To run the website
  Depending on the production stage of the website the command to run the website stage
   #### before the end conversion stage ( wo/ ejs and marked)
-    with the assumption that the user has the NPM and the live-server package installed 
+
+ with the assumption that the user has the NPM and the live-server package installed 
+
+
      ```
      live-server
      ```
+
+
+
      Alternatively, 
      ```
      npm install -g live-server
      live-server
      ```
-      #### after or in between the end conversion stage (w/ ejs and marked) a series of command have to be executed to ensure correct rendering of the ejs files
+
+
+
+#### after or in between the end conversion stage (w/ ejs and marked) a series of command have to be executed to ensure correct rendering of the ejs files
       ```
       npm install 
       npm install express marked
@@ -54,7 +63,7 @@ However, in the future for mailing sub-systems we may consider using lower end p
  [![Netlify Status](https://api.netlify.com/api/v1/badges/a3da14c4-1c39-4e81-97c5-f156e6a7a7de/deploy-status)](https://app.netlify.com/sites/boring-lichterman-774dd9/deploys)
  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
  [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
- [![Generic badge](https://img.shields.io/badge/<RAHUL BATRA>-<2019>-<GREEN>.svg)](https://shields.io/)
+ [![Generic badge](https://img.shields.io/badge/RAHUL BATRA-2019-GREEN.svg)](https://shields.io/)
  [![forthebadge](https://forthebadge.com/images/badges/cc-0.svg)](https://forthebadge.com)
  [![forthebadge](https://forthebadge.com/images/badges/contains-technical-debt.svg)](https://forthebadge.com)
  [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
