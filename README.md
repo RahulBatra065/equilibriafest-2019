@@ -27,28 +27,26 @@ Equilibria Fest 2020 Website
  Depending on the production stage of the website the command to run the website stage
   #### before the end conversion stage ( wo/ ejs and marked)
  with the assumption that the user has the NPM and the live-server package installed 
-
-
-     ```
+ ```
      live-server
-     ```
+  ```
 
 
 
  Alternatively, 
-     ```
+  ```
      npm install -g live-server
      live-server
-     ```
+  ```
 
 
 
 #### after or in between the end conversion stage (w/ ejs and marked) a series of command have to be executed to ensure correct rendering of the ejs files
-      ```
+ ```
       npm install 
       npm install express marked
       node install
-      ```
+ ```
 ### Note
 We assume that the user testing the website is running some form of the darwin kernel, this is because the developer uses a Mac which uses a modified version of the darwin kernel, the packages are not tested to run on the windows command prompt (Please consider using WSL2 or https://en.wikipedia.org/wiki/List_of_terminal_emulators any of these ) .
 It is also in good faith that I do not convert to webpack or yarn simply due to ease and not needing to navigate through the sub modules themselves
@@ -61,7 +59,7 @@ Additionally md for github, md rendering and error handling in node.js and expre
 The entire frontend is run on a combination of netlify and heroku with bare-minimal cpu usage to ensure minimum costs
 However, in the future for mailing sub-systems we may consider using lower end plans
  ### Details
-  ```
+```
 ──────────────────────┐
  Current Netlify User │
 ──────────────────────┘
@@ -76,7 +74,7 @@ Teams:
 Current site: boring-lichterman-774dd9
 Admin URL:    https://app.netlify.com/sites/boring-lichterman-774dd9
 Site URL:     https://boring-lichterman-774dd9.netlify.com
-  ```
+```
 
 
  ### Statuses
