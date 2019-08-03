@@ -107,4 +107,4 @@ Actual Website --> https://admiring-torvalds-77ede8.netlify.com
 
 ##### The End
  Made with love, IT Cell, Symbiosis School of Economics 2019!        
- [![Generic badge](https://img.shields.io/badge/RAHUL%20BATRA-2019-GREEN.svg)](https://shields.io/)
+ [![Generic badge](https://img.shields.io/badge/RAHUL%20BATRA-2019-GREEN.svg)](https://rahulbatra.in)
