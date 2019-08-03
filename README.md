@@ -90,6 +90,18 @@ Current site: boring-lichterman-774dd9
 Admin URL:    https://app.netlify.com/sites/boring-lichterman-774dd9
 Site URL:     https://boring-lichterman-774dd9.netlify.com
   ```
+  ### Branches
+  The website is hosted through 2 branches 
+  1)Master
+  2)Actual Website
+the master branch runs the master website (eq.com) while the actual website branch runs the subdomain (frontend.eq.com)
+#### Backend Configs
+
+```
+Master --> https://boring-lichterman-774dd9.netlify.com/
+Actual Website --> https://admiring-torvalds-77ede8.netlify.com
+```
+
 
 
  ### Statuses
