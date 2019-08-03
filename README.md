@@ -17,23 +17,10 @@ Equilibria Fest 2020 Website
 |
 |--bower_components/
 |------------------materialize
-|
+|------------------slick-carousel
 |------------------jquery
 |
-|---index.js
-|
-|--procfile
-|
-|--app.js
-|
-|--text.js
-|
-|--package-lock.json
-|
 |--LICENSE
-|
-|--node_modules
-|----- TL;DR a million node_modules to support the unified backend of the server NEVER MESS THIS
 ```
 
 ### To run the website
