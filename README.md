@@ -91,6 +91,22 @@ Site URL:     https://boring-lichterman-774dd9.netlify.com
  [![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
  [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 
+
+
+ ### Branches
+  The website is hosted through 2 branches 
+  1)Master
+  2)Actual Website
+the master branch runs the master website (eq.com) while the actual website branch runs the subdomain (frontend.eq.com)
+#### Backend Configs
+
+```
+Master --> https://boring-lichterman-774dd9.netlify.com/
+Actual Website --> https://admiring-torvalds-77ede8.netlify.com
+```
+
+
+
 ##### The End
  Made with love, IT Cell, Symbiosis School of Economics 2019!
  [![Generic badge](https://img.shields.io/badge/RAHUL%20BATRA-2019-GREEN.svg)](https://shields.io/)
