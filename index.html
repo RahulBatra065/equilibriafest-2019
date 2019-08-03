@@ -3,27 +3,55 @@
 
 <head>
     <meta charset="UTF-8">
+    <link href="https://use.fontawesome.com/4330864dc7.css" media="all" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Equilibria 2019</title>
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css?family=Hind+Madurai:300,400,500,600,700&display=swap');
+    body {
+        font-family: 'hind madurai'
+    }
 </style>
 
 <body>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="bower_components/materialize/dist/css/materialize.css">
     <center>
-        <img src="assets/sse.png" alt="" style="margin-top: 40vh;">
-        <br>
-        <h4> Equilibria 2019 will be live soon! </h4>
-        <div class="container">
-            <hr>
-        </div>
+        <div class="conta-start">
+            <center>
+                <div class="haikuf">
+                    <div id="mount"></div>
+                </div>
+                <script src="https://code.haiku.ai/scripts/core/HaikuCore.4.3.1.min.js"></script>
+                <script src="https://cdn.haiku.ai/fdc40598-8588-4f31-99cd-3981ee69da99/0f5f7e25a897620d6992c43ae6bd51b74bf2d857/index.embed.js"></script>
+                <script>
+                    HaikuComponentEmbed_rahulbatra065_ErrorCopy(
+                        document.getElementById('mount'), {
+                            loop: true
+                        }
+                    );
+                </script>
+            </center>
+            <img src="assets/sse2.png" alt="" style="margin-top: 0vh;height: 10vh;">
+            <br>
+
+            <div class="container">
+                <h4> Equilibria 2020 will be live soon! </h4>
+
+                <hr> Social Media Links: <br>
+                <i class="fa fa-instagram " aria-hidden="true" style="color: black;"></i> Instagram
+            </div>
     </center>
 </body>
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/materialize/dist/js/materialize.js"></script>
+<script>
+    $('.fa-instagram').click(function() {
+        $(location).attr('href', 'https://instagram.com/equilibria_2019');
+    })
+</script>
 
 </html>

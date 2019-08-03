@@ -1,3 +1,11 @@
 body {
     padding: 0;
 }
+
+.fa-instagram {
+    cursor: pointer;
+}
+
+.conta-start {
+    margin-top: 30vh;
+}

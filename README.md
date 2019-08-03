@@ -1,5 +1,5 @@
-# equilibriafest-2019
-Equilibria Fest 2019 Website
+# equilibriafest-2020
+Equilibria Fest 2020 Website
  ## Structure
  The frontend will follow a custom revision of the vanilla implementation of the classic version of Express Server 
   with EJS and marked-down rendering
@@ -21,11 +21,17 @@ Equilibria Fest 2019 Website
 |------------------jquery
 |
 |---index.js
+|
 |--procfile
+|
 |--app.js
+|
 |--text.js
+|
 |--package-lock.json
+|
 |--LICENSE
+|
 |--node_modules
 |----- TL;DR a million node_modules to support the unified backend of the server NEVER MESS THIS
 ```
