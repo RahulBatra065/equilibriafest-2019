@@ -1,5 +1,8 @@
 # equilibriafest-2020
 Equilibria Fest 2020 Website
+
+## Explicit banch --> actual-website-2
+ Refers to 1/2 ideas for the end website
  ## Structure
  The frontend will follow a custom revision of the vanilla implementation of the classic version of Express Server 
   with EJS and marked-down rendering
