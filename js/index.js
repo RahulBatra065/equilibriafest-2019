@@ -25,8 +25,13 @@ function getTime() {
     var TimeDifference = diffToYear + ' Years ' + diffToMonth + ' Months ' + diffToDays + ' Days ' + diffToHours + ' Hours ' + diffToMinutes + ' Minutes ' + diffToSeconds + ' Seconds ';
     $(".countdown").text(TimeDifference);
     var t = setTimeout(getTime, 500);
+    /*var time = [currentYear, currentMonth, currentDay, currentHours, currentMinutes, currentSeconds];
 
+    $(".current").text('[' + time + ']'); */
+    return TimeDifference
+    return time
 }
-
-
 getTime();
+
+
+console.log('All Rights Reserved Equilibria Organisers 2019-20 // rahulbatra.in');
