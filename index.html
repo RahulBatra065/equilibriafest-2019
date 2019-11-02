@@ -2,131 +2,152 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="bower_components/materialize/dist/css/materialize.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Equilibria 2020</title>
-    <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Hind+Madurai:300,400,500,600,700&display=swap" rel="stylesheet">
+    <title>Document</title>
     <style>
-        body {
-            font-family: 'Hind Madurai', sans-serif;
+        .footer {
+            background: black;
+            color: white;
+            padding: 5%;
+            transform: translateY(10vh);
         }
     </style>
 </head>
 
-<body class="">
-    <div class="container">
-        <nav style="background-color:rgba(0,0,0,0);box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0), 0 3px 1px -2px rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0,0,0);color:black;">
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo right">Logo</a>
-                <ul id="nav-mobile" class="left hide-on-med-and-down">
-                    <li><a href="sass.html" style="color: black;"> Sass</a></li>
-                    <li><a href="badges.html" style="color: black">Components</a></li>
-                    <li><a href="collapsible.html" style="color: black">JavaScript</a></li>
-                </ul>
+<body>
+    <link rel="stylesheet" href="bower_components/materialize/dist/css/materialize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <div class="lander">
+        <div class="container">
+            <nav style="background-color:rgba(0,0,0,0);box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0), 0 3px 1px -2px rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0,0,0);color:black;">
+                <div class="nav-wrapper">
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" style="color: black;">menu</i></a>
+                    <a href="#" class="brand-logo "><img src="assets/sse.png" alt="" style="height:5vh;margin-top: 6%;z-index: -100;"></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="sass.html"> Social Fest</a></li>
+                        <li><a href="badges.html">Cultural Fest</a></li>
+                        <li><a href="https://register.eq20.in">Register</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="sass.html">Social Fest</a></li>
+                <li><a href="badges.html">Cultural Fest</a></li>
+                <li><a href="https://register.eq20.in">Register</a></li>
+                To Close the menu, drag the menu back
+
+            </ul>
+
+        </div>
+        <center>
+            <img src="assets/head.png" alt="" style="height: 40vh;" class="head-land"> <br>
+            <div class="btnn btn sched">
+                <h6> View the Schedule </h6>
+
             </div>
-        </nav>
-    </div>
-    <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="btnn btn events">
+                <h6> View the events </h6>
 
-        <div class="item"><img src="assets/fullimage1.jpg" alt="The Last of us"></div>
-        <div class="item"><img src="assets/fullimage2.jpg" alt="GTA V"></div>
-        <div class="item"><img src="assets/fullimage3.jpg" alt="Mirror Edge"></div>
+            </div>
+            <br> <br>
+            <div class="btnn btn ambassador">
+                <h6> Register as a campus ambassador </h6>
+
+            </div>
+        </center>
+    </div>
+    <div class="sponsors">
+        <center>
+            <h5>Title Sponsors:</h5>
+        </center>
+    </div>
+    <div class="particles">
+        <div id="particles-js">
+            <center>
+                <div class="content">
+                    <h1>About Us</h1>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo hic earum nesciunt laborum facilis, distinctio necessitatibus et temporibus vitae mollitia libero natus aspernatur cumque nostrum, ducimus sequi sint excepturi doloremque.
+                </div>
+            </center>
+
+        </div>
+
 
     </div>
+    <div class="events"></div>
+    <div class="footer">
+        <center>
+            <div class="container">
+                <a href="https://instagram.com/equilibria2020/"> <i class="fab fa-instagram 4x" style="font-size:2em;color:white;">
+                        </i></a>
+        </center>
+        <br>
+        <div class="row">
+            <div class="col s4 m4 l4 rightline">
+                <center>
+
+                    <img src="assets/sse.png" alt="" style="height: 5vh;">
+                </center>
+            </div>
+            <div class="col s4 m4 l4 leftline">
+                <center>
+                    <h5>
+                        Events</h5>
+                    <ul>
+                        <li>Social Events</li>
+                        <li>Sports Events</li>
+
+                    </ul>
+                </center>
+            </div>
+            <div class="col s4 m4 l4">
+                <center>
+                    <h5>
+
+                        Registration Systems
+                    </h5>
+                    <ul>
+                        <li>Register for EQ'20</li>
+                        <li>Campus Ambassador Program</li>
+
+                    </ul>
+                </center>
+            </div>
+        </div>
+        <center> <small>All Rights Reserved, Equilibria Fest  Organisers 2019-20
+    
+    <br>
+    <a href="https://madewithlove.org.in" target="_blank" style="color: white;">Made with <span style="color: #e74c3c">&hearts;</span> in India</a> <br>
+    
+    
+            </small></center>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="js/particles.min.js"></script>
+
+
+    </div>
+
 </body>
 <script src="bower_components/jquery/dist/jquery.js"></script>
+
 <script src="bower_components/materialize/dist/js/materialize.js"></script>
-<script src="bower_components/jquery/dist/jquery.js"></script>
-<script src="bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
-<script>
-    $(document).ready(function() {
 
-        var time = 7; // time in seconds
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-        var $progressBar,
-            $bar,
-            $elem,
-            isPause,
-            tick,
-            percentTime;
 
-        //Init the carousel
-        $("#owl-demo").owlCarousel({
-            slideSpeed: 500,
-            paginationSpeed: 500,
-            singleItem: true,
-            afterInit: progressBar,
-            afterMove: moved,
-            startDragging: pauseOnDragging
-        });
 
-        //Init progressBar where elem is $("#owl-demo")
-        function progressBar(elem) {
-            $elem = elem;
-            //build progress bar elements
-            buildProgressBar();
-            //start counting
-            start();
-        }
+<script src="js/index.js"></script>
 
-        //create div#progressBar and div#bar then prepend to $("#owl-demo")
-        function buildProgressBar() {
-            $progressBar = $("<div>", {
-                id: "progressBar"
-            });
-            $bar = $("<div>", {
-                id: "bar"
-            });
-            $progressBar.append($bar).prependTo($elem);
-        }
-
-        function start() {
-            //reset timer
-            percentTime = 0;
-            isPause = false;
-            //run interval every 0.01 second
-            tick = setInterval(interval, 10);
-        };
-
-        function interval() {
-            if (isPause === false) {
-                percentTime += 1 / time;
-                $bar.css({
-                    width: percentTime + "%"
-                });
-                //if percentTime is equal or greater than 100
-                if (percentTime >= 100) {
-                    //slide to next item 
-                    $elem.trigger('owl.next')
-                }
-            }
-        }
-
-        //pause while dragging 
-        function pauseOnDragging() {
-            isPause = true;
-        }
-
-        //moved callback
-        function moved() {
-            //clear interval
-            clearTimeout(tick);
-            //start again
-            start();
-        }
-
-        //uncomment this to make pause on mouseover 
-        // $elem.on('mouseover',function(){
-        //   isPause = true;
-        // })
-        // $elem.on('mouseout',function(){
-        //   isPause = false;
-        // })
-
-    });
-</script>
+</html>
+</body>
 
 </html>
