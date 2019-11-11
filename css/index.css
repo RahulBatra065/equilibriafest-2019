@@ -1,9 +1,142 @@
-body {
-    padding: 0;
+.lander {
+    height: 100vh;
+    width: 100vw;
+    background: url('../assets/bg.jpg');
+    padding-top: 1%;
 }
 
-.fa-instagram {
-    cursor: pointer;
+@keyframes header {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(-4%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
 }
 
-.conta-start {}
+.head-land {
+    margin-top: 10%;
+}
+
+.btnn {
+    background: white;
+    box-shadow: 0px 0px 0px 0px inset;
+    color: black;
+    padding-top: 0px;
+    height: auto;
+}
+
+.btnn:hover {
+    background: red;
+    color: #fff;
+}
+
+.particles {
+    border-radius: 25%;
+    margin-left: 7%;
+    color: white;
+}
+
+#particles-js {
+    margin-top: 10%;
+    position: relative;
+    width: 90%;
+    height: 100vh;
+    background: #003366;
+    border-radius: 1%;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+/* ---- stats.js ---- */
+
+.count-particles {
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+    -webkit-user-select: none;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles {
+    border-radius: 0 0 3px 3px;
+}
+
+.content {
+    padding: 5%;
+}
+
+
+/* footer properties */
+
+.rightline {
+    border-right: solid 2px white;
+}
+
+.leftline {
+    border-right: solid 2px white;
+}
+
+.rightline-black {
+    border-right: solid 2px black;
+}
+
+.footer li {
+    opacity: .6;
+    transition: all ease .2s;
+}
+
+.footer li:hover {
+    opacity: 1;
+}
+
+.footer li:active {
+    opacity: 1;
+}
+
+.arrowanim {
+    animation: arrowdown 2s infinite;
+}
+
+li.here {}
+
+li.here:hover {
+    opacity: .6;
+}
+
+
+/*end footer properties */
+
+.events {}
+
+.event {
+    /*  width: 50vh; */
+}
