@@ -93,6 +93,8 @@
 .content {
     padding: 5%;
 }
+
+
 /* footer properties */
 
 .rightline {
@@ -102,6 +104,7 @@
 .leftline {
     border-right: solid 2px white;
 }
+
 .rightline-black {
     border-right: solid 2px black;
 }
@@ -122,16 +125,18 @@
 .arrowanim {
     animation: arrowdown 2s infinite;
 }
-li.here{
 
+li.here {}
+
+li.here:hover {
+    opacity: .6;
 }
-li.here:hover{
-  opacity: .6;
-}
+
+
 /*end footer properties */
-.events{
 
-}
-.event{
-/*  width: 50vh; */
+.events {}
+
+.event {
+    /*  width: 50vh; */
 }
