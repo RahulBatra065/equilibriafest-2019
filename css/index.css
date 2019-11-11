@@ -93,6 +93,7 @@
 .content {
     padding: 5%;
 }
+/* footer properties */
 
 .rightline {
     border-right: solid 2px white;
@@ -100,6 +101,9 @@
 
 .leftline {
     border-right: solid 2px white;
+}
+.rightline-black {
+    border-right: solid 2px black;
 }
 
 .footer li {
@@ -117,4 +121,17 @@
 
 .arrowanim {
     animation: arrowdown 2s infinite;
+}
+li.here{
+
+}
+li.here:hover{
+  opacity: .6;
+}
+/*end footer properties */
+.events{
+
+}
+.event{
+/*  width: 50vh; */
 }

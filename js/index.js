@@ -1,4 +1,3 @@
-AOS.init(); // AOS 
 
 // Particle JS Config
 particlesJS("particles-js", {
@@ -124,3 +123,4 @@ $(document).ready(function() {
     $('.sidenav').sidenav();
 });
 console.log('All Rights Reserved Equilibria Organisers 2019-20 // rahulbatra.in');
+AOS.init(); // AOS
