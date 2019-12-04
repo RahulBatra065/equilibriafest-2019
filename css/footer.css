@@ -39,3 +39,8 @@ li.here:hover {
     padding: 5%;
     transform: translateY(10vh);
 }
+
+.footer-typed {
+    opacity: .5;
+    font-family: monospace;
+}

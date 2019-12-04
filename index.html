@@ -3,6 +3,7 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="css/mobile-queries.css">
 <link rel="stylesheet" href="css/footer.css">
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 <link rel="stylesheet" type="text/css" href="css/mobile-queries.css">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152720415-1"></script>
@@ -151,6 +152,7 @@
 
     <div class="footer">
         <center>
+            <p class="footer-typed"> </p>
             <div class="container">
                 <a href="https://instagram.com/equilibria2020/"> <i class="fab fa-instagram 4x" style="font-size:2em;color:white;">
                         </i></a>
@@ -229,7 +231,17 @@
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
+<script>
+    var typed = new Typed('.footer-typed', {
+        strings: ['Writing on the wall, makes you crave and crawl', 'Bad artists copy, good artists steal.', "One person's idiocy is another person's realism", "You’re either an artist or either you’re Hitler – There’s no in-between", "Earth without art is just eh."],
+        smartBackspace: true, // Default value
+        showCursor: false,
+        typeSpeed: 40,
+        loop: true,
+        loopCount: Infinity,
 
+    });
+</script>
 
 <script src="js/index.js"></script>
 
