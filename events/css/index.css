@@ -1,0 +1,15 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.lander {
+    width: 100vw;
+    min-height: 30vh;
+    background: url('../../assets/bg-events.JPG'), linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+}
+
+.lander h3 {
+    color: white;
+}

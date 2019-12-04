@@ -100,41 +100,6 @@ body {
 
 /* footer properties */
 
-.rightline {
-    border-right: solid 2px white;
-}
-
-.leftline {
-    border-right: solid 2px white;
-}
-
-.rightline-black {
-    border-right: solid 2px black;
-}
-
-.footer li {
-    opacity: .6;
-    transition: all ease .2s;
-}
-
-.footer li:hover {
-    opacity: 1;
-}
-
-.footer li:active {
-    opacity: 1;
-}
-
-.arrowanim {
-    animation: arrowdown 2s infinite;
-}
-
-li.here {}
-
-li.here:hover {
-    opacity: .6;
-}
-
 
 /*end footer properties */
 
