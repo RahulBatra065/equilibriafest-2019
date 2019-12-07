@@ -87,7 +87,7 @@
 
             </div>
             <br> <br>
-            <div class="btnn btn ambassador">
+            <div class="btnn btn ambas">
                 <h6> Register as a campus ambassador </h6>
 
             </div>
@@ -108,7 +108,7 @@
                     of SSE. Equilibria perceives a continuous growth in passion and participation from students all across the country, every year. And this year, EQ gets bigger and better! With an endless aim of encouraging youth, EQ conducts competitions
                     neck to neck. <br>
                     <div class="btnn btn sched" style="background: rgba(0, 0, 0, 0);border: solid 1px white;color: white;">
-                        <h6> View this year's team </h6>
+                        <h6 class="viewTeam"> View this year's team </h6>
 
                     </div>
                 </div>
@@ -209,13 +209,24 @@
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script>
         $('.regeq20').click(function() {
-            href.redirect('http://register.eq20.in')
+            // href.redirect('http://register.eq20.in')
+            location.href = 'http://register.eq20.in';
         })
         $('.campreg20').click(function() {
-            href.redirect('http://ambassador.eq20.in')
+            // href.redirect('http://ambassador.eq20.in');
+            location.href = 'http://ambassador.eq20.in';
+        })
+        $('.ambas').click(function() {
+            // href.redirect('http://ambassador.eq20.in');
+            location.href = 'http://ambassador.eq20.in';
         })
         $('.internaleq20').click(function() {
-            href.redirect('http://regteam.eq20.in')
+            // href.redirect('http://regteam.eq20.in');
+            location.href = 'http://regteam.eq20.in';
+        })
+        $('.viewTeam').click(function() {
+            // href.redirect('http://regteam.eq20.in');
+            location.href = 'https://equilibriasse.in/team/';
         })
     </script>
 
