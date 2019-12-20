@@ -20,24 +20,7 @@ Equilibria Fest 2020 Website
 |
 |--LICENSE
 ```
- ### Details
-```
-──────────────────────┐
- Current Netlify User │
-──────────────────────┘
-Name:  Rahul Batra
-Email: rahulbatra065@gmail.com
-Teams:
-  Rahul Batra's team: Collaborator
-  nodedps's team:     Collaborator
-────────────────────┐
- Netlify Site Info  │
-────────────────────┘
-Current site: boring-lichterman-774dd9
-Admin URL:    https://app.netlify.com/sites/boring-lichterman-774dd9
-Site URL:     https://boring-lichterman-774dd9.netlify.com
-```
-
+ 
 
  ### Statuses
  [![Netlify Status](https://api.netlify.com/api/v1/badges/a3da14c4-1c39-4e81-97c5-f156e6a7a7de/deploy-status)](https://app.netlify.com/sites/boring-lichterman-774dd9/deploys)
@@ -56,5 +39,5 @@ Site URL:     https://boring-lichterman-774dd9.netlify.com
 
 
 ##### The End
- Made with love, Rahul Batra, Symbiosis School of Economics 2019!        
+      
  [![Generic badge](https://img.shields.io/badge/RAHUL%20BATRA-2019-GREEN.svg)](https://rahulbatra.in)
