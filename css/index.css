@@ -1,7 +1,7 @@
 .lander {
     width: 100vw;
     background: url('../assets/bg.jpg');
-    padding-top: 1%;
+    padding-top: 0%;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 }
 
 .head-land {
-    margin-top: 10%;
+    margin-top: 1%;
 }
 
 .btnn {
